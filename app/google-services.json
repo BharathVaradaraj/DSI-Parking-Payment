@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "783006353662",
+    "firebase_url": "https://dsi-parking-payment.firebaseio.com",
+    "project_id": "dsi-parking-payment",
+    "storage_bucket": "dsi-parking-payment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783006353662:android:130413c27f596889",
+        "android_client_info": {
+          "package_name": "com.cse.dsiparkingpayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783006353662-qbkqkada32fdfa9uuqjber07eu89njq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAEbIolVKffoITTHa0rRDdlK-ZpwdA9Yk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
