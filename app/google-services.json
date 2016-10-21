@@ -1,9 +1,9 @@
 {
   "project_info": {
     "project_number": "783006353662",
-    "firebase_url": "https://dsi-parking-payment.firebaseio.com",
+    "firebase_url": ".........",
     "project_id": "dsi-parking-payment",
-    "storage_bucket": "dsi-parking-payment.appspot.com"
+    "storage_bucket": ".............."
   },
   "client": [
     {
@@ -21,7 +21,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCAEbIolVKffoITTHa0rRDdlK-ZpwdA9Yk"
+          "current_key": "..........."
         }
       ],
       "services": {
