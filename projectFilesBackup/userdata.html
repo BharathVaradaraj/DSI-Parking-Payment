@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recharge RFID</title>
+	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <h1> Welcome to DSI Parking Payment System</h1>
+  
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="register.html">Register RFID</a></li>
+      <li><a href="recharge.html">Recharge</a></li>
+	  <li><a class="active" href="javascript:data();">UserData</a></li>
+      <li><a href="about.html">About</a></li>
+	  <li style= "float:right; visibility:hidden" id="log"><a href="javascript:logout();">Logout</a></li>
+    </ul>
+	
+    <div class="imgcontainer">
+      <img src="dsi.jpg" alt="Avatar" class="avatar">
+    </div>
+  
+    <ul id="data">
+      <li><a href="javascript:list();">List Users</a></li>
+      <li><a href="javascript:info();">Users Info</a></li>
+      <li><a href="recharge.html">Recharge</a></li>
+    </ul>
+  
+    <div id="uinfo">
+      <div class="contain" style="visibility:hidden" id="tmp">
+        <label><b>Enter USN:</b></label><br>
+        <input type="text" placeholder="Enter Usn" name="uid" id="ui" maxlength="10" required>
+	    <button type="button" onclick=display() id="enter">Enter </button>
+	
+        <table style="width:40%">
+           <caption>User Information:</caption>
+           <tr>
+              <th>Name:</th>
+              <td id="nam"></td>
+            </tr>
+            <tr>
+              <th>USN:</th>
+	          <td id="id"></td>
+            </tr>
+            <tr>
+              <th>RFID:</th>
+	          <td id="rf"></td>
+            </tr>
+            <tr>
+              <th>Amount:</th>
+	          <td id="amt"></td>
+            </tr>
+            <tr>
+              <th>Telephone:</th>
+              <td id="mob"></td>
+            </tr>
+  
+        </table>
+	  </div>
+      <ol id="users"> </ol>
+    </div>
+    <script src="app.js"> </script>
+  </body>
+</html>

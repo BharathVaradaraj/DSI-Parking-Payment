@@ -1,0 +1,141 @@
+h1 {
+	text-align: center;
+    color: green;
+}   
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 15px;
+	font-size: 20px;
+    margin: 8px 0;
+    border: none;
+	border-radius: 10px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+	height: 200px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: left;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    
+}
+
+#data {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+#data li {
+	float:left;
+}
+
+#data li a {
+	display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#data li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.contain {
+	padding: 16px;
+	width: 900px;
+}
+
+#enter {
+	background-color: #4CAF50;
+    color: white;
+    padding: 8px 7px;
+	font-size: 20px;
+    margin: 8px 0;
+    border: none;
+	border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+}
+
+table {
+	position: absolute;
+	right: 250px;
+	left:600px;
+	top: 450px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+	padding: 10px;
+    text-align: left;
+}
+th {
+    width:5%;
+}
+td {
+	width:10%;
+}

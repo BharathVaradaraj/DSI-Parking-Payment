@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recharge RFID</title>
+	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="register.html">Register RFID</a></li>
+    <li><a href="recharge.html">Recharge</a></li>
+	<li><a href="javascript:data();">UserData</a></li>
+    <li><a href="about.html">About</a></li>
+	<li style= "float:right; visibility:hidden" id="log"><a href="javascript:logout();">Logout</a></li>
+  </ul>
+    
+  <div class="container">
+    <label><b>Enter USN:</b></label><br>
+    <input type="text" placeholder="Enter Usn" name="uid" id="uid" maxlength="10" required><br>
+
+    <label><b>Enter RFID:</b></label><br>
+    <input type="text" placeholder="Enter 56 A5 85 B4" name="rfid" id="rfid" required><br><br>
+        
+    <button type="button" onclick=register()>Register </button>
+  
+  </div>
+  
+  <script src="app.js"> </script>
+  
+  </body>
+  
+  
+  
+  
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to DSI Parking Payment System</title>
+	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+ 
+  <body>
+  <h1> Welcome to DSI Parking Payment System</h1>
+  
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="register.html">Register RFID</a></li>
+    <li><a href="recharge.html">Recharge</a></li>
+    <li><a href="about.html">About</a></li>
+	<li style= "float:right; visibility:hidden" id="log"><a href="javascript:logout();">Logout</a></li>
+  </ul>
+	
+  <div class="imgcontainer">
+    <img src="dsi.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Email:</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+
+    <label><b>Password:</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" id="pwd" required><br><br>
+        
+    <button type="button" onclick=login() >Login</button>
+  
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <span class="psw">Forgot <a href="javascript:sendPasswordReset();">password?</a></span>
+  </div>
+
+	 <script src="app.js"> </script>
+  </body>
+</html>
