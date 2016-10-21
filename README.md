@@ -7,3 +7,6 @@ Android app is used to create and manage your account,the existing college ID ca
 At the RFID receiver python script reads the id and updates the amount in the firebase database
 
 Web-app is used for registering your ID card with your account and also for recharging your account.
+
+
+Web-app files are placed in the projectfilesBackup folder.
